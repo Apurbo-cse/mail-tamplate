@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+     <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+     <title>Post Notification Email Template</title>
+     <meta name="description" content="Reset Password Email Template.">
+
+
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+</head>
+
+<body marginheight="0" topmargin="0" marginwidth="0" leftmargin="0" class="main-mail">
+     <br> <br> <br> <br>
+     <!--100% body table-->
+     <table width="95%" border="0" align="center" cellpadding="0" cellspacing="0" class="body-email pt-5">
+          <tr>
+               <td style="height:20px;">&nbsp;</td>
+          </tr>
+
+          <tr>
+               <td class="text-center">
+                    <a href="https://www.hellosuperstars.com" title="logo" target="_blank" class="a-tag">
+                         <img width="80"
+                              src="https://www.hellosuperstars.com/static/media/HelloSuperStarLogo.b2954c0f9e2cfe31a215.png"
+                              title="logo" alt="logo">
+                    </a>
+               </td>
+          </tr>
+          <tr>
+
+               <td style="padding:0 35px;padding-top:20px">
+                    <h2 class="mail-cat text-center">
+                         Sports
+                         <!-- {{$senderInfo->category->name}} -->
+                    </h2>
+
+                    <br>
+                    <p class="mail-title">
+                         Subject : Sick Leave Application
+                         to Principal Written By Parents of Child
+                         <!-- {{$postInfo->title}} -->
+                    </p>
+                    <p class="mail-sir">Respected (Sir/Madam),</p>
+                    <p class="mail-description">
+
+                         Shakib Al Hasan has his career decorated with a large number of
+                         records, most of them coming as an all-rounder. He holds the
+                         record for the highest fifth wicket partnership in the ICC
+                         Champions Trophy (225 runs with Mahmudullah). This partnership
+                         also made the duo to get the highest batting partnership for
+                         Bangladesh in One Day Internationals.
+
+
+
+                         Shakib Al Hasan is also the first Bangladeshi bowler to have
+                         taken 5 wickets in a match against all the Test playing nations.
+                         He is the fourth bowler in the World to achieve this feat after
+                         Dale Steyn, Muttiah Muralitharan and Rangana Herath. Also, Shakib
+                         Al Hasan has taken 76 wickets at the Shere Bangla Stadium in T20I
+                         matches, which is a record for taking the highest wickets at a
+                         single ground.
+                         <!-- {!! $postInfo->description !!} -->
+                    </p>
+
+
+               </td>
+          </tr>
+          <tr class="text-center">
+               <td>
+                    <div href="javascript:void(0);" class="top-footer text-center">
+
+                         POSTED BY MANAGER ADMIN (MUSICIANS) ,
+                         <br>
+                         THANK YOU
+                         DECEMBER 18, 2022, 1:11 PM
+                         <!-- Posted By {{$senderInfo->first_name}} {{$senderInfo->last_name}}
+               ,  THANK YOU
+               {{ date("F j, Y, g:i a") }}
+               -->
+                    </div>
+               </td>
+          </tr>
+          <tr>
+               <td style="height:20px;">&nbsp;</td>
+          </tr>
+
+          <td class="text-center">
+               <p class="mail-footer">
+                    &copy; <strong>www.hellosuperstars.com</strong></p>
+          </td>
+     </table>
+     <!--/100% body table-->
+     <br>
+
+
+     <style type="text/css">
+          @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+
+          .a-tag:hover {
+               text-decoration: underline !important;
+          }
+
+
+          .body-email {
+               max-width: 670px;
+               background: rgb(26, 25, 25);
+               border-radius: 10px;
+               -webkit-box-shadow: 0 6px 18px 0 rgba(0, 0, 0, .06);
+               -moz-box-shadow: 0 6px 18px 0 rgba(0, 0, 0, .06);
+               box-shadow: 0 6px 18px 0 rgba(0, 0, 0, .06);
+
+          }
+
+          .mail-cat {
+               font-weight: 500;
+               margin: 0;
+               font-size: 25px;
+               font-family: 'Bungee Spice', sans-serif;
+               background: -webkit-linear-gradient(rgb(195, 49, 5), rgb(255, 181, 7));
+               -webkit-background-clip: text;
+               -webkit-text-fill-color: transparent;
+               font-weight: 600;
+          }
+
+          .mail-title {
+               color: #acacac;
+               font-size: 18px;
+               font-weight: 600;
+          }
+
+          .mail-sir {
+               color: #acacac;
+               font-size: 17px;
+               font-weight: 600;
+          }
+
+          .mail-description {
+               color: #acacac;
+               font-size: 15px;
+          }
+
+          .top-footer {
+               background: #ececec;
+               text-decoration: none !important;
+               font-weight: 500;
+               margin-top: 35px;
+               color: rgb(0, 0, 0);
+               text-transform: uppercase;
+               font-size: 14px;
+               padding: 5px 20px;
+               display: inline-block;
+               border-radius: 5px;
+          }
+
+          .mail-footer {
+               font-size: 14px;
+               color: rgba(250, 171, 0, 0.741);
+               line-height: 18px;
+          }
+     </style>
+</body>
+
+</html>
